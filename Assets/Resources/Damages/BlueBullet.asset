@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de9be0bd9da6dc43a608e4680f359c3, type: 3}
+  m_Name: BlueBullet
+  m_EditorClassIdentifier: 
+  Damage:
+    DamageType: 0
+    Projectiles:
+    - {fileID: 2964137447984188157, guid: 69fa36b4f8d33d04984701ac18405584, type: 3}
+    ProjectileLife: 0.4
+    HitEffect: {fileID: 11400000, guid: 33115fccfa22d7640abc9e1f6f86d2e8, type: 2}
+    BaseDamage: 2
+    BaseSpeed: 20
